@@ -1,0 +1,7 @@
+[config]
+url = http://178.62.77.6
+access_token = no access token for you ;p nexus{easter_egg}
+
+[challenges]
+nexus_minictf_2023 = git@github.com:Sami-mst/nexus_minictf_2023.git
+
