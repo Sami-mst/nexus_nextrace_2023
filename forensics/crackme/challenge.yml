@@ -1,0 +1,33 @@
+
+name: "Crackme"
+author: "4NG3L"
+author_link: "https://github.com/4NG3L-4"
+category: forensics
+difficulty: easy
+description: |
+  > Crack me and rock me!  
+
+  **Author** : 4NG3L
+flags:
+  - nexus{0h_Cr4Ck3D_4_j0K3_4641n_#?!}
+
+
+
+
+topics:
+  - ZIP Cracking
+
+tags:
+  - forensics
+
+files:
+  - ./chall/crackme.zip
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: visible
+version: "0.1"

@@ -1,0 +1,38 @@
+
+name: "intern"
+author: "samdem"
+author_link: "https://github.com/samdem-ai"
+category: reverse
+difficulty: med
+description: |
+  > our intern made a program to securely encrypt our files           
+  > but forgot to implement a way to decrypt them!   
+  > can you please help us recover our precious files   
+
+  **Author** : samdem
+flags:
+  - nexus{R3v3rs1nG_J4vA_1s_s00_Fun}
+
+
+
+
+topics:
+  - reverse engineering
+  - java reverse engineering
+
+tags:
+  - binary
+  - reverse
+  - java
+
+files:
+  - ./challenge/Intern.class
+  - ./challenge/encrypted_flag.png
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

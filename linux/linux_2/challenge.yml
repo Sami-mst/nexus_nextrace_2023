@@ -1,0 +1,31 @@
+
+name: "linux 2"
+author: "Sami_Mst"
+author_link: "https://github.com/Sami-mst"
+category: linux
+difficulty: normal
+description: |
+  > you have the flag but you can't read it :( !  
+  
+  **password** : ctf    
+  **Author** : Sami_Mst  
+flags:
+  - nexus{$uD0_usAge_G1VES_priv1L3Ge$}
+
+
+connection_info: ssh ctf@178.62.77.6 -p 2020
+topics:
+  - linux
+
+tags:
+  - linux
+
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

@@ -1,0 +1,35 @@
+name: "babysread"
+author: "El_B1g-R0m1"
+author_link: "https://github.com/AbdouRoumi"
+
+category: reverse
+
+difficulty: easy
+
+description: |
+  > just to start .....
+
+  **Author** : El_B1g_R0m1
+
+flags:
+  - Nexus{R3m3mb3r_4lw4y5_R333333ad_Th3_C0d3}
+
+
+
+files:
+  - ./challenge/babysread.py
+tags:
+  - easy
+
+value: 150
+
+type: dynamic
+
+extra:
+    initial: 100
+    decay: 30
+    minimum: 10
+
+state: visible
+
+version: "0.1"

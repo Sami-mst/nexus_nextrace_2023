@@ -1,0 +1,32 @@
+name: "NexusBcrypto"
+
+
+category: cryptography
+
+difficulty: medium
+description: |
+  >  can you answer all the questions to get the flag?  
+  >  ps : answers in lowercase  
+  
+  **Author**: mo_4m1n3
+flags:
+  - nexus{F1n4lly_you_4re_h3r3!!}
+
+connection_info: nc 178.62.77.6 2005
+topics:
+  - cryptography
+
+hints:
+   - what is Bacon
+tags:
+  - cryptography
+  
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

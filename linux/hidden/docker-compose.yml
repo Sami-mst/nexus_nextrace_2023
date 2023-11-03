@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  linux2:
+    build: .
+    hostname: nexus_mainframe
+    ports:
+      - '2023:22'
+
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          memory: 100M

@@ -1,0 +1,37 @@
+
+name: "smurf"
+author: "sami_mst"
+author_link: "author website or github link"
+category: smurf
+difficulty: gentle
+description: |
+  > the smurfs are hiding secrets and flags from us  
+  > we know a flag is in this text  
+  > problem is : it's wayyy too long and tedious to read  
+  > but since we're busy and you're lifeless , we want you to go through it all  
+
+  **Author**: Sami_mst
+flags:
+  - nexus{3VeN_SMUrF_hAve_H1DD3N_SecR3T$}
+
+
+topics:
+  - information disclosure
+  - buffer overflow
+  - memory forensics
+
+tags:
+  - smurf
+files:
+  - ./smurf.txt
+
+Notes: 
+  - no need to bruteforce (for example)
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

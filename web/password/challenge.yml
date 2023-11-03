@@ -1,0 +1,35 @@
+
+name: "password"
+author: "sami_mst"
+author_link: "author website or github link"
+category: web
+difficulty: normal
+description: |
+  > this is a secure vault where we store nexus' flags !  
+  > can you find the password ???  
+  > ps : no bruteforce  
+
+  **Author**: sami_mst
+flags:
+  - nexus{maSt3R_P4SsWOrD_cr4CK3r}
+
+
+connection_info: http://178.62.77.6:2009
+topics:
+  - javascript
+  - md5
+
+tags:
+  - web
+
+
+Notes: 
+  - no need to bruteforce (for example)
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

@@ -1,0 +1,30 @@
+name: "Gaius Julius"
+
+
+category: cryptography
+
+difficulty: cute
+description: |
+ >  Julius once said  
+ >  arkhf{p43f4e_p1cu3e_1f_g00_3m_gb_q3pelcg}  
+
+  **Author**: mo_4m1n3  
+
+flags:
+  - nexus{c43s4r_c1ph3r_1s_t00_3z_to_d3crypt}
+topics:
+  - cryptography
+  
+tags:
+  - crypto
+
+
+
+value: 300
+type: dynamic
+extra:
+    initial: 300
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

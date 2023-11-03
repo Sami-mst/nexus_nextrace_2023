@@ -1,0 +1,36 @@
+
+name: "babySnipe"
+author: "E!B1g-R0m1"
+author_link: "www.github.com/AbdouRoumi"
+category: pwn
+difficulty: easy-med
+description: |
+  >  Good mouse = Good Aim . Ah sorry Good GDB = Good Aim .  
+  
+  **Author** : E!B1g-R0m1
+flags:
+  - nexus{g00d_Aim_N3xU53r} 
+
+
+
+
+connection_info: nc 178.62.77.6 2033
+
+topics:
+  - buffer overflow
+
+tags:
+  - pwn
+  
+
+files:
+  - ./challenge/babySnipe
+  - ./challenge/chall.c
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

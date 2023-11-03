@@ -1,0 +1,31 @@
+
+name: "Welcome"
+author: "sami_mst"
+author_link: "author website or github link"
+category: Welcome
+difficulty: welcome
+description: |
+  > welcome to nextrace , the first flag is somewhere in this room  
+  > find it and submit it to get your first points  
+  > HURRY !!!
+
+  **Author** : Sami_mst
+flags:
+  - nexus{Good_detective}
+
+tags:
+ - welcome
+
+
+
+
+Notes: 
+  - no need to bruteforce (for example)
+value: 100
+type: dynamic
+extra:
+    initial: 50
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

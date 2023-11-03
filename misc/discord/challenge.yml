@@ -1,0 +1,28 @@
+
+name: "Discord"
+author: "!Mokhtar"
+author_link: "https://github.com/dev-Mokhtar"
+category: misc
+difficulty: easy
+description: |
+  > author: "!Mokhtar".    
+  > John Doe is Hiding The Secret Flag !.    
+  > I Heared That He Has Cat allergy.   
+
+  **Author**: !Mokhtar
+flags:
+  - nexus{Nev3r_Tru$t_S4mY!}
+
+
+
+
+Notes: 
+  - in Bots We trust 
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

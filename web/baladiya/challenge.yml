@@ -1,0 +1,36 @@
+
+name: "baladia"
+author: "sami_mst"
+author_link: "author website or github link"
+category: web
+difficulty: normal
+description: |
+  > you're at the baladia , they do not want to  
+  > give you the flag  
+  > they told you to come back tomorrow  
+
+  **Author**: sami_mst
+flags:
+  - nexus{N3W_GENErati0N_1NSPeCt0r}
+
+
+connection_info: http://178.62.77.6:2034
+topics:
+  - javascript
+  - md5
+
+tags:
+  - so cuuuute
+  - baladia
+
+
+Notes: 
+  - no need to bruteforce (for example)
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

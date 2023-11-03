@@ -1,0 +1,30 @@
+
+name: "Heizenberg"
+author: "!M0KHT4R"
+author_link: "author website or github link"
+category: misc
+difficulty: gentle
+description: |
+  > I AM THE ONE WHO KNOCKS.  
+  > NOTE : THE FLAG FORMAT IS : nexus{Capital_Letters}.  
+
+  **Author**: M0KHT4R
+flags:
+  - nexus{S4Y_MY_N4M3}
+
+
+
+
+files:
+  - ./Heizenberg.png
+
+Notes: 
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

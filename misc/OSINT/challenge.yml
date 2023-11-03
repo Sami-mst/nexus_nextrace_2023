@@ -1,0 +1,27 @@
+
+name: "ESTIN's Tree"
+author: "!Mokhtar"
+author_link: "https://github.com/dev-Mokhtar"
+category: misc
+difficulty: ezmed
+description: |
+  > All Roads Lead To Nexus , But only ONE of them is special !.      
+
+  **Author**: !Mokhtar
+flags:
+  - nexus{G0OGL3_1$_Com1ng2_EST1N}
+
+tags:
+ - OSINT
+
+
+Notes: 
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

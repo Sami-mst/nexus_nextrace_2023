@@ -1,0 +1,33 @@
+
+name: "linux 1"
+author: "Sami_Mst"
+author_link: "https://github.com/Sami-mst"
+category: linux
+difficulty: normal
+description: |
+  > can you find the flag in this file system?  
+  > hint : that flag file name starts with 't' and has 30 bytes  
+
+  **password** : ctf  
+  **Author** : Sami_Mst  
+flags:
+  - nexus{u_f0und_Me??_h000w!!??}
+
+
+
+connection_info: ssh ctf@178.62.77.6 -p 2021
+topics:
+  - linux
+
+tags:
+  - sahel
+
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

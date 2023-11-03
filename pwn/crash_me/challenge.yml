@@ -1,0 +1,37 @@
+
+name: "crash me"
+author: "sami_mst"
+author_link: "author website or github link"
+category: pwn
+difficulty: gentle
+description: |
+  > i wrote my first program for my TP ALGO  
+  > and it works!!!!  
+  > think you can make it crash ? :3  
+
+  **Author**: sami_mst
+flags:
+  - nexus{s3g_f4ult_m4ster}
+
+
+
+topics:
+  - secure coding
+  - binary exploitation
+
+tags:
+  - binary exploitation
+  - gentle
+files:
+  - ./program
+  - ./source.c
+Notes: 
+  - no need to bruteforce (for example)
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

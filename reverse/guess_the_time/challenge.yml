@@ -1,0 +1,35 @@
+
+name: "guess"
+author: "djaoued"
+author_link: "author website or github link"
+category: reverse
+difficulty: hard
+description: |
+  > you do own a watch right ?    
+  > well you better guess the number right !!  
+
+  **Author** : djaoued
+flags:
+  - nexus{s33d_unt1l_you_bleed}
+
+
+
+connection_info: nc 178.62.77.6 2032
+
+topics:
+  - reverse engeneering
+
+tags:
+  - binary
+  - reverse
+
+files:
+  - guess
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

@@ -1,0 +1,26 @@
+
+name: "google's robot"
+author: "!Mokhtar"
+author_link: "https://github.com/dev-Mokhtar"
+category: web
+difficulty: soft
+description: |
+  > i love nexus .   
+   
+  **Author**: !Mokhtar
+flags:
+  - nexus{1_hat3_R0boot$}
+
+connection_info: http://178.62.77.6:2010
+
+tags:
+  - soft
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

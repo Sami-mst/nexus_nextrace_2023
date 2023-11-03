@@ -1,0 +1,37 @@
+
+name: "TD"
+author: "4NG3L"
+author_link: "https://github.com/4NG3L-4"
+category: forensics
+difficulty: hard
+description: |
+  > Bonjour,  
+  > Ci-joint vous trouverez votre TD a analyser.  
+  > Cordialement,  
+
+  **Author** : 4NG3L
+flags:
+  - nexus{PDF+1nJ3c710n+08fU5c4710N=PdfPr0M4x}
+
+
+
+
+topics:
+  - forensics
+  - pdf analysis
+  - obfuscation
+
+tags:
+  - forensics
+
+files:
+  - chall/td1.pdf
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

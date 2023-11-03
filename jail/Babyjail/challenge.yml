@@ -1,0 +1,28 @@
+name: "Babyjail"
+author: "AbdouRoumi"
+author_link: "https://github.com/AbdouRoumi"
+category: jail
+difficulty: ezmed
+
+description: |
+  > Get out!!!!  
+  > flag is in /challenge/flag  
+
+  **Author** : E!_B1g_R0m1  
+flags:
+  - nexus{N0!_you_e$c4ped_my_JAI1}
+
+connection_info: nc 178.62.77.6 2037
+tags:
+  - path
+  - python
+
+files:
+  - challenge/Babyjail/challenge/main.py
+
+
+value: 300
+type: standard
+
+state: hidden
+version: "0.1"

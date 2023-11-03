@@ -1,0 +1,26 @@
+name: "c-jail"
+author: "AbdouRoumi"
+author_link: "https://github.com/AbdouRoumi"
+category: jail
+difficulty: med
+
+description: |
+  > now,you can't get out!!!!  
+
+
+  **Author** : E!_B1g_R0m1
+flags:
+  - nexus{Wha7?_You_arE_oUT_aG4in_!}
+
+connection_info: nc 178.62.77.6 2038
+tags:
+  - jail
+  - c
+
+files:
+   - ./challenge/cjayl/here/cj.c
+value: 500
+type: standard
+
+state: visible
+version: "0.1"

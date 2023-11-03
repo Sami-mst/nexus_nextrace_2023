@@ -1,0 +1,34 @@
+
+name: "passwd"
+author: "djaoued"
+author_link: "author website or github link"
+category: reverse
+difficulty: ezmed
+description: |
+  > the flag is safely garded from simpletons such as yourself        
+  > speak the password or begone !    
+
+  **Author** : djaoued
+flags:
+  - nexus{super_1337_flag}
+
+
+
+
+topics:
+  - reverse engeneering
+
+tags:
+  - binary
+  - reverse
+
+files:
+  - ./challenge/passwd
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

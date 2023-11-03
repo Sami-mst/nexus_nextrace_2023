@@ -1,0 +1,31 @@
+
+name: "encoded"
+author: "sami_mst"
+author_link: "author website or github link"
+category: cryptography
+difficulty: soft
+description: |
+  > can you decode this weird looking string ???  
+  > bmV4dXN7TUEkVDNSX2RFQ29kM3J9Cg==      
+
+  **Author** : sami_mst
+flags:
+  - nexus{MA$T3R_dECod3r}
+
+
+
+
+tags:
+  - cryptography
+
+
+Notes: 
+  - no need to bruteforce (for example)
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

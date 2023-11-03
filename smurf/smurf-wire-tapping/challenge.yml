@@ -1,0 +1,37 @@
+
+name: "smurf wire tapping"
+author: "sami_mst"
+category: smurf
+difficulty: cute
+description: |
+  > our spies have intercepted a communication between smurf and smurfette  
+  > they may be exchanging our flag , as a network security analyst we need you do analyse the traffic  
+  > and extract the flag  
+
+  **Author** : sami_mst
+flags:
+  - nexus{$MuRF_SEcreT_COmmUn1C4T1On}
+
+
+
+topics:
+  - mitm
+  - forensics
+  - cute
+tags:
+  - cute
+  - network
+  - forensics
+  - wireshark
+  - network analysis
+files:
+  - ./smurf.pcapng
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

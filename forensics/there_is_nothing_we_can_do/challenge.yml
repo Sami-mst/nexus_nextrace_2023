@@ -1,0 +1,35 @@
+
+name: "there's nothing we can do"
+author: "sami_mst"
+author_link: "author website or github link"
+category: forensics
+difficulty: normal
+description: |
+  > this is the end ... there's nothing we can do...
+  > or is it ?    
+  > ps : wrap what you find inside nexus{}  
+
+  **Author** : Sami_mst
+flags:
+  - nexus{THEREISNOTHINGWECANNOTDO}
+
+
+
+
+tags:
+  - hopelessness 
+  
+
+files:
+  - ./thereisnothing.mp4
+
+Notes: 
+  - no need to bruteforce (for example)
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

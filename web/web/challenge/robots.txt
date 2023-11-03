@@ -1,0 +1,2 @@
+User-agent: * 
+Disallow: /secretfr5tuyidyruit6yrd57u68ty.txt

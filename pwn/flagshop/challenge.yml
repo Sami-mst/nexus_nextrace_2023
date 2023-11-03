@@ -1,0 +1,36 @@
+
+name: "flagshop"
+author: "djaoued"
+author_link: "author website or github link"
+category: pwn
+difficulty: medium
+description: |
+  > Get ready for a bit of shopping.    
+  > can you buy the pricy flag ?  
+  
+  **Author** : djaoued
+flags:
+  - nexus{n3gative_$_for_the_win}   
+
+
+
+connection_info: nc 178.62.77.6 2031
+
+topics:
+  - integer overflow
+
+tags:
+  - binary
+  - logic  
+
+files:
+  - ./challenge/flagshop
+  - ./flagshop.c
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

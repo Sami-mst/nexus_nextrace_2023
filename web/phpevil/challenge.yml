@@ -1,0 +1,29 @@
+name: "EvilPHP"
+
+
+category: web
+
+difficulty: hard
+description: |
+ >  Eval is Evil  
+
+  
+  **Author**: mo_4m1n3  
+flags:
+  - nexus{3v4l_1s_r3ally_ev1l1337}
+topics:
+  - web
+  
+tags:
+  - web
+
+connection_info: http://178.62.77.6:2029
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 50
+state: hidden
+version: "0.1"

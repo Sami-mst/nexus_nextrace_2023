@@ -1,0 +1,33 @@
+
+name: "methods"
+author: "sami_mst"
+author_link: "author website or github link"
+category: web
+difficulty: soft
+description: |
+  > can you try to **POST** your way to this website ?  
+
+  **Author**: sami_mst
+flags:
+  - nexus{d1Ff3r3nt_4cTi0nS_cAn_B3_pERfoRmed_BY_difF3REnT_r3qU3StS}
+
+
+connection_info: http://178.62.77.6:2026
+topics:
+  - javascript
+  - md5
+
+tags:
+  - soft
+
+
+Notes: 
+  - no need to bruteforce (for example)
+value: 500
+type: dynamic
+extra:
+    initial: 150
+    decay: 30
+    minimum: 50
+state: hidden
+version: "0.1"

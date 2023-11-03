@@ -1,0 +1,20 @@
+name: "hidden"
+author: "sami_mst"
+category: linux
+difficulty: cute
+description: |
+  > Nothing to see here just an empty folder ...  
+
+  **Password** : ctf  
+  **Author** : sami_mst
+flags:
+  - nexus{ch3ck_F0r_HIdD3N_F1Le$_4Lw4yS}
+
+connection_info: ssh ctf@178.62.77.6 -p 2023
+
+tags:
+  - cute
+value: 150
+type: standard
+state: hidden
+version: "0.1"
