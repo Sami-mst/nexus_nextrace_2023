@@ -1,0 +1,12 @@
+# hidden
+
+## Write-up
+
+```bash
+ls -al
+cat hidden_flag.txt
+```
+
+## Flag
+
+`nexus{ch3ck_F0r_HIdD3N_F1Le$_4Lw4yS}`
